@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime logs and mission output
+*.log
+*.bag
+*.db3
+*.mcap
+events.jsonl
+mission_targets.jsonl
+mission_summary.csv
+detections.jsonl
+recordings/
+sessions/
+rosbag*/
+car_events/
+received_events/
+
+# Models are supplied separately
+*.pt
+*.engine
+*.onnx
+
+# Local test captures
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
